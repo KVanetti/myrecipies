@@ -7,6 +7,34 @@ $navbar-default-bg: #1e90ff;
   text-align: center;
 }
 
+.jumbotron {
+  background-image: asset-url('cupcake.jpg');
+  background-size: cover;
+  height: 300px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  text-shadow: 4px 2px #1e90ff;
+}
+
+
+.jumbotron h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn btn-primary btn-xlarge {
+  color: #1e90ff;
+}
+
 #logo {
   float: left;
   font-size: 1.7em;
